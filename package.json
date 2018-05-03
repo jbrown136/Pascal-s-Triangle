@@ -1,0 +1,26 @@
+{
+  "name": "Pascal-s-Triangle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pascalsTriangle.js",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbrown136/Pascal-s-Triangle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbrown136/Pascal-s-Triangle/issues"
+  },
+  "homepage": "https://github.com/jbrown136/Pascal-s-Triangle#readme"
+}

@@ -9,12 +9,7 @@ function triangle (n) {
     }
     return result
 }
-// console.log(triangle(0));
-// console.log(triangle(1));
-// console.log(triangle(2));
-// console.log(triangle(3));
-// console.log(triangle(4));
-// console.log(triangle(5));
+
 
 function pyramid (n){
     if(n === 0) return {'0': [1]};
@@ -33,12 +28,6 @@ function pyramid (n){
     result[n] = [1];
     return result;
   }
-//   console.log(pyramid(0));
-//   console.log(pyramid(1));
-//   console.log(pyramid(2));
-//   console.log(pyramid(3));
-//   console.log(pyramid(4));
-//   console.log(pyramid(5));
-//   console.log(pyramid(10));
-  console.log(pyramid(50));
 
+
+module.exports = {triangle, pyramid}
